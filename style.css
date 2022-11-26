@@ -1,0 +1,257 @@
+
+body {
+    font-family: roboto;
+        /* background-image: url(images/background.PNG);
+        background-position: center;
+        background-size: 20%; */
+    
+}
+/*header*/
+NAV {
+    background-color: rgba(255, 0, 0, 0.683);
+        height: 99px;
+        color: #ffffff;
+        display: flex;
+        JUSTIFY-CONTENT: center;
+} 
+#carouselExampleControls {
+    HEIGHT: 354px;
+        PADDING: 0% 0%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.carousel-item img{
+    HEIGHT: 354px;
+        PADDING: 0% 0%;
+}
+div{
+    display: block;
+}
+.onglets {
+    display: flex;
+        align-items: center;
+        MARGIN: 1% 9%;
+  }
+  .onglets a {
+    display: flex;
+        align-items: center;
+        font-size: 25px;
+        text-decoration: none;
+        color: #ffff;
+        PADDING: 1% 8%;
+  }
+.titre {
+        DISPLAY: flex;
+            PADDING-bottom: 10%;
+            margin: 0%;
+            font-size: 44px;
+        
+}
+/*footer total*/
+.total {
+    color: black;
+        background-color: #ffff;
+        DISPLAY: flex;
+        ALIGN-ITEMS: center;
+        margin: 0%;
+        width: 100%;
+    
+}
+.total_commander {
+    margin-left: 5px;
+}
+/*article 123456*/
+.ligne1 {
+    display: flex;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ligne1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    PADDING: 1% 0%;
+}.ligne2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    PADDING: 1% 0%;
+}.ligne3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    PADDING: 1% 0%;
+}
+.article {
+    width: 465px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+.article img{
+display: flex;
+    align-items: center;
+    justify-content: unset;
+    HEIGHT: 300PX;
+    WIDTH: 257px;
+}
+.texte_article {
+    padding-left: 15px;
+}
+p {
+    MARGIN: 2%;
+}
+h2 {
+    margin-top: 5px;
+}
+.grand-prix {
+    height: 20px;
+}
+.total_article {
+    margin-top: 6px;
+    margin-left: 50px;
+    width: 10px;
+    font-style: bold ;
+}
+.dt {
+    font-size: 13px;
+}
+.dtp {
+    font-size: 9px;
+}
+/*boutons + et -*/
+.plus_moins {
+    display: flex;
+}
+.moins {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+.plus {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 57px;
+}
+/*bouton ajouter au panier*/
+.button_achat {
+    background-color: #000000;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+
+    text-align: center;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: -6px;
+}
+.button_achat2 {
+    background-color: #FFFFFF;
+    border: 2px solid #cccccc;
+    color: black;
+
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin: 25px;
+    margin-left: 460px;
+}
+/*banniere footer*/
+.banniere2 {
+    display: flex;
+        color: #FFFFFF;
+        height: 100px;
+        JUSTIFY-CONTENT: CENTER;
+        WIDTH: 100%;
+}
+footer {
+        margin-top: 40px;
+        background-color: rgba(255, 0, 0, 0.683);
+        color: #fff;
+         text-align-last: center;
+    
+    ;
+}
+
+footer h1 {
+        font-family: 'Playfair Display', serif;
+            display: flex;
+            justify-content: center;
+}
+
+footer .services {
+    margin-top: -10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+h3 {
+    display: block;
+        font-size: 1.17em;
+        padding: 5% 0%;
+        MARGIN: 0%;
+        font-weight: bold;
+}
+
+footer .services .service {
+            MARGIN: 0%;
+}
+
+footer .services .service p {
+    max-width: 300px;
+}
+
+footer #contact {
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px) {
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .onglets a {
+        
+    }
+    .main .card {
+        margin: 10px;
+    }
+
+    .main .content .card .right img {
+        height: 200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+
+    .main .content .card {
+        display: block;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
